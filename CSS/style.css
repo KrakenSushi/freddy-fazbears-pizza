@@ -1,0 +1,292 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li
+{
+    list-style: none;
+}
+a:visited
+{
+    color: #000000;
+}
+a:link
+{
+    color: #000000;
+}
+header
+{
+    background-color: #FFBC0D;
+    width: 100%;
+    height: 150px;
+}
+.header-title
+{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-family: order_pizza;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    -webkit-text-stroke:0.31px #ffffff;
+}
+.logo
+{
+    display: none;
+}   
+header nav ul
+{
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: fit-content;
+}
+header nav ul li
+{
+    float: left;
+    font-size: 16px;
+    padding: 0 7px;
+}
+header nav ul li a
+{
+    font-family: fantasy;
+    font-weight: 400;
+}
+header nav ul li a img
+{
+    max-width: 25px;
+    max-height: 25px;
+    margin-top: -5px;
+}
+footer
+{
+    position: relative;
+    background-color: #FFBC0D;
+    width: calc(100% - 40px);
+    padding: 20px 20px;
+    margin-top: 80%;
+    overflow: hidden;
+    z-index: 1;
+}
+footer ul
+{
+    float: left;
+    padding-left: 20px;
+}
+footer ul li a
+{
+    font-family: fantasy;
+    line-height: 20px;
+}
+.appIcon
+{
+    transform: scale(0.7,0.7);
+    margin-left: -50px;
+    margin-top: -15px;
+}
+.appStore
+{
+    padding: 10px 0;
+    transform: scale(0.7,0.7);
+    margin-left: 25%;
+    margin-top: -38%;
+}
+.playStore
+{
+    padding: 10px 0;
+    transform: scale(0.7,0.7);
+    margin-left: 25%;
+    margin-top: -10%;
+}
+.footer-sns
+{
+    width: 50px;
+    margin-top: -30%;
+    float: right ;
+}
+.footer-sns img
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.footer-sns p
+{
+    display: none;
+}
+.copyright
+{
+    padding-top: 15px;
+    margin-left: 10%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px ;
+    text-align: center;
+}
+.title
+{
+    text-align: center;
+    font-family: order_pizza;
+    color: #BD2D2D;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#goUp
+{
+    display: none;
+}
+@media only screen and (min-width: 1000px)
+{
+    /* Header */
+    header
+    {
+        height: 40%;
+        overflow: hidden;
+    }
+    .header-title
+    {
+        font-size: 40px;
+        padding-top: 50px;
+        letter-spacing: 5px;
+    }
+    .logo
+    {
+        display: block;
+        transform: scale(0.3,0.3);
+        position: absolute;
+        top: -23%;
+        left: 4%;
+    }
+    header nav ul li
+    {
+        float: left;
+        font-size: 30px;
+        margin-top: 15px;
+        padding: 20px 35px;    
+        transition: all 0.5s ease-out;    
+    }
+    header nav ul li a:hover
+    {
+        color: #BD2D2D;
+        transition: 0.2s;
+    }
+    header nav ul li a img
+    {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .title
+    {
+        margin-top: 30px;
+        font-size: 40px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        -webkit-text-stroke: 1px white;
+    }
+    /*Go Up Button*/
+    #goUp
+    {
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        color: white;
+        background-color: #BD2D2D;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 18px;
+        z-index: 99;
+        outline: none;
+        transition: 0.3s ease-in-out;
+    }
+    #goUp:hover
+    {
+        background-color: #8f2222;
+        box-shadow: 0 5px #666;
+        transform: translateY(-5px);
+        transition: 0.3s;
+    }
+    /* Footer */
+    footer
+    {
+        width: calc(100% - 80px);
+        padding: 20px 40px;
+        margin-top: 25%;
+        padding-bottom: 0;
+    }
+    .appIcon
+    {
+       margin: 0%;
+       transform: scale(1.2,1.2);
+       margin-left: 23%;
+       margin-top: 1%;
+    }
+    .appStore
+    {
+        margin: 0;
+        transform: scale(1,1);
+        margin-left: 27%;
+        margin-top: -7.3%;
+        margin-bottom: -1%;
+    }
+    .playStore
+    {
+        margin: 0;
+        transform: scale(1,1);
+        margin-left: 27%;
+    }
+    .footer-main
+    {
+        margin-left: 45%;
+        margin-top: -7%;
+        line-height: 25px;
+    }
+    .footer-sec
+    {
+        margin-left: 55%;
+        margin-top: -7%;
+        line-height: 25px;
+    }
+    .copyright
+    {
+        float: right;
+        margin-right: 25%;
+        display: inline;
+        padding: 10px 0 0 0;
+    }
+    .footer-sns
+    {
+        margin: 0;
+        transform: scale(1,1);
+        width: 50px;
+        margin-top: -8%;
+        margin-right: 15%;
+        padding: 0;
+    }
+    .footer-sns a img
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        transition: 0.3s ease-in-out;
+        border-radius: 25px;
+    }
+    .footer-sns a img:hover
+    {
+        box-shadow: 0 12px 16px 0 #0000003d, 0 17px 16px 0 #00000030;
+        transform: translateY(-5px);
+        transition: 0.3s;
+    }
+    footer ul li a
+    {
+        font-family: sans-serif;
+        line-height: 20px;
+        font-weight: 700;
+    }
+}

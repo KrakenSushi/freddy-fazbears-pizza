@@ -1,0 +1,170 @@
+body
+{
+    background-image: url('../Assets/Menu/bg.jpg');
+}
+.container
+{
+    
+    background-color: #FFBC0D ;
+    border: 5px solid  #BD2D2D;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.mealTitle
+{
+    padding-top: 20px;
+    text-indent: 20px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    color: #BD2D2D;
+}
+.mealName
+{
+    font-family: sans-serif;
+    font-weight: 700;
+    float: right;
+    margin: 30px 30px 0 0;
+}
+.menuItemContainer
+{
+    background-color: aliceblue;
+    width: 90%;
+    margin: 10px auto;
+    height: 100px;
+    border-radius: 8px;
+    padding: 7px 0;
+}
+.mealPic
+{
+
+    max-height: 130px;
+    max-width: 130px;
+    padding-bottom: 10px;
+}
+.drinkPic
+{
+    max-height: 110px;
+    max-width: 110px;
+}
+#mChicken
+{
+    margin-left: 20px;
+    max-width: 100px;
+    max-height: 100px;
+}
+@media only screen and (min-width: 1000px)
+{
+    .container
+    {
+        width: 80%;
+        overflow: hidden;
+        margin-bottom: 5%;
+        transition: 0.7s ease-in-out;
+    }
+    .container:hover
+    {
+        box-shadow: 0 12px 16px 0 #ff960d, 0 17px 50px 0 #ff960d; 
+        transition: 0.3s;
+    }
+    .mealTitle
+    {
+        padding-top: 30px;
+        text-indent: 40px;
+        font-size: 40px;
+        -webkit-text-stroke: 1px white;
+        font-family: fantasy;
+        letter-spacing: 2px;
+        color: #BD2D2D;
+    }
+    .mealName
+    {
+        display: block;
+        float: none;
+        margin-left: 40px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .menuItemContainer
+    {
+        width: 20%;
+        margin: 10px 20px;
+        height: 300px;
+        padding: 7px 0;
+        float: left;
+        transition: 0.7s ease-in-out;
+    }
+    .menuItemContainer:hover
+    {
+        box-shadow: 0 10px #666;
+        transform: translateY(-10px);
+        transition: 0.3s;
+    }
+    .mealPic
+    {
+        display: block;
+        margin: 0 auto;
+        max-height: 200px;
+        max-width: 200px;
+        padding: 0 10% ;
+        padding-top: 20%;
+    }
+    .drinkPic
+    {
+        display: block;
+        margin: 0 auto;
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+    #mChicken
+    {
+        margin: 0 auto;
+        max-width: 180px;
+        max-height: 180px;
+        padding-bottom: 20px;
+    }
+    footer
+    {
+        margin-top: 5%;
+    }
+}
+@media only screen and (min-width: 1366px)
+{
+    
+    .mealTitle
+    {
+        font-size: 32px;
+    }
+    .mealName
+    {
+        font-size: 20px;
+    }
+    .mealPic
+    {
+        display: block;
+        margin: 0 auto;
+        max-height: 175px;
+        max-width: 175px;
+        padding: 0 10% ;
+        padding-top: 20%;
+    }
+    .drinkPic
+    {
+        padding-top: 20px;
+        display: block;
+        margin: 0 auto;
+        max-height: 150px;
+        max-width: 150px;
+    }
+
+    #mChicken
+    {
+        margin: 0 auto;
+        max-width: 150px;
+        max-height: 150px;
+        padding-bottom: 20px;
+    }
+}

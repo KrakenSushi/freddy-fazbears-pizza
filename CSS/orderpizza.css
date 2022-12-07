@@ -1,0 +1,8 @@
+@font-face 
+{
+    font-family: 'order_pizza';
+    src: url('../Assets/Fonts/orderpizza-97j2-webfont.woff2') format('woff2'),
+         url('../Assets/Fonts/orderpizza-97j2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
